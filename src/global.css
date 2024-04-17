@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body{
+    overflow-x: hidden;
+}
+
+.titleFont {
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+.bg-banner{
+    background-image: url(./assets//images/Header/bg-banner-mobile.webp);
+    background-size: 100%;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+}
+
+@media (min-width:1024px){
+    .bg-banner{
+        background-image: url(./assets//images/Header/background-banner.webp);
+        background-size: 80%;
+        max-width: 1400px;
+        background-position: bottom right;
+        background-repeat: no-repeat;
+    }
+}
