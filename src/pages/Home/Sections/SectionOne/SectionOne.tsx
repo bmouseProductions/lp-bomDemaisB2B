@@ -44,8 +44,8 @@ export default function SectionOne(){
                         </div>
                 </div>
 
-                <div className='lg:w-1/2 flex flex-col items-center lg:items-end justify-center '>
-                    <h1 className="lg:hidden mb-10 titleFont text-5xl text-center lg:text-start text-[#0062ff] ">
+                <div className='relative lg:w-1/2 flex flex-col items-center lg:items-end justify-center '>
+                    <h1 className=" lg:hidden mb-10 titleFont text-5xl text-center lg:text-start text-[#0062ff] ">
                         OFERECEMOS
                         DESCONTOS EXCLUSIVOS!
                     </h1>
@@ -57,6 +57,15 @@ export default function SectionOne(){
                         className='' 
                         alt="" 
                     />
+
+                    <div className='absolute bottom-0 rounded-b-[25px] p-5  backdrop-blur-sm bg-[#000000ac] '>
+                        <p className='text-white font-semibold'>
+                            Joel Jota é reconhecido como um
+                            Treinador de Alta Performance,
+                            Empresário e personalidade de
+                            destaque no programa Shark Tank.
+                        </p>
+                    </div>
                 </div>
             </div>
         </section>
