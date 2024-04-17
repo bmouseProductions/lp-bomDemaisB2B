@@ -3,7 +3,7 @@ import Button from "../../../../components/Button/Button";
 
 export default function SectionTwo() {
     return (
-        <section className="my-20 container mx-auto px-5 md:px-10 xl:px-16 flex flex-col-reverse lg:flex-row gap-5">
+        <section className=" container mx-auto px-5 md:px-10 xl:px-16 flex flex-col-reverse lg:flex-row gap-5">
             <div className='w-full grid grid-cols-1 md:grid-cols-2 justify-items-center gap-10 text-white'>
                 <div className='px-5 lg:px-10 py-10 lg:py-16 max-w-[500px] flex flex-col justify-center items-center gap-5 bg-[#0062ff] rounded-[30px]  '>
                     <h2 className='titleFont text-3xl text-center text-[#fff800] uppercase '>
