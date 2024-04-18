@@ -17,7 +17,7 @@ export default function SectionFour(){
                         bomd+
                     </p>
                     <p className='text-center'>
-                        Aproveite benefícios especiais <strong>para você e sua família.</strong>
+                        Aproveite descontos especiais <strong>para você e sua família.</strong>
                     </p>
                     
                     <form 
