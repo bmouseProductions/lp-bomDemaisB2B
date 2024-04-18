@@ -1,45 +1,61 @@
-import joelJota from '../../../../assets/images/jotinha.webp'
+import logo from '../../../../assets/images/logoFrente.webp'
 
 export default function SectionFour(){
     return (
-        <section className="py-20">
-            <div className="container mx-auto px-5 md:px-10 xl:px-16 flex flex-col-reverse lg:flex-row-reverse gap-5">
-                <div 
-                    data-aos="fade-right" 
-                    data-aos-duration="3000"
-                    className='px-5 py-10 xl:px-10 xl:py-0 w-full flex flex-col lg:justify-center gap-5 lg:text-lg border-2 border-[#0062ff] rounded-[30px] '
-                >
-                    <h1 className="hidden lg:block titleFont text-6xl text-center md:text-start ">
-                        Sobre Joel Jota
-                    </h1>
+        <section className="py-20 container mx-auto px-5 md:px-10 xl:px-16 text-white">
+            <div className="pt-10 px-5 h-[700px] md:h-[800px] flex flex-col items-center gap-5 rounded-[30px] bg-[#0062ff] bg-banner-form ">
+                <img src={logo} alt="" className='w-[200px] ' />
+                <h2 className="titleFont uppercase text-3xl lg:text-6xl text-center">
+                    Solicite seu <br /> 
+                    <span className='text-[#ffee00] lg:text-7xl text-center'>cartão bomd+</span>
+                </h2>
 
-                    <p className='text-center md:text-start'>
-                    Joel Jota é uma figura de destaque na arena da alta performance. Sua jornada começou como um atleta de natação de elite, conquistando reconhecimento nacional e internacional. Após encerrar sua carreira esportiva, ele se tornou um treinador renomado, moldando mais de 1000 atletas em todos os níveis de habilidade.
+                <div className='max-w-[600px] '>
+                    <p className='text-center mb-5'>
+                        Tenha acesso a descontos exclusivos em saúde, educação, lazer e
+                        bem-estar! Preencha o formulário abaixo para pedir o seu Cartão
+                        bomd+
                     </p>
-
-                    <p className='text-center md:text-start'>
-                    Como empresário, Joel já impactou mais de 500 mil empreendedores e empresas. Ele também é autor de best-sellers, palestrante inspirador e influenciador digital, alcançando uma audiência de mais de 30 milhões de pessoas em suas redes sociais.
-                    </p>
-                        
-                    <p className='text-center md:text-start'>
-                    Joel está empenhado em capacitar outros a atingirem seu máximo potencial, tanto pessoal quanto profissionalmente, deixando um legado de sucesso e realização.
+                    <p className='text-center'>
+                        Aproveite benefícios especiais <strong>para você e sua família.</strong>
                     </p>
                     
-                </div>
+                    <form 
+                        className='mt-5 flex flex-col gap-5 text-black'
+                        action=""
+                    >
+                        <input 
+                            type="text"
+                            placeholder='Seu CPF'
+                            className='px-7 py-3 w-full  rounded-[30px] shadow-xl '
+                            required
+                            id='cpf'
+                        />
 
-                <div className='lg:w-1/2 flex flex-col items-center lg:items-end lg:justify-center'>
-                    <h1 className="lg:hidden mb-10 titleFont text-5xl text-center lg:text-start text-[#0062ff] ">
-                        Sobre Joel Jota
-                    </h1>
+                        <input 
+                            type="text"
+                            placeholder='Seu nome'
+                            className='px-7 py-3 w-full  rounded-[30px] shadow-xl '
+                            required
+                            id='nome'
+                        />
 
-                    <img 
-                        data-aos="fade-up-left" 
-                        data-aos-duration="3000"
-                        src={joelJota} 
-                        className='rounded-[30px] ' 
-                        alt="" 
-                    />
+                        <select 
+                            className='px-7 py-3 w-full  rounded-[30px] shadow-xl '
+                            name="" 
+                            id="plano"
+                        >
+                            <option value="">
+                                Plano Premium
+                            </option>
+
+                            <option value="">
+                                Plano Premium Saúde
+                            </option>
+                        </select>
+                    </form>
                 </div>
+                
             </div>
         </section>
     )

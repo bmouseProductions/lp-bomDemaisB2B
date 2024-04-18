@@ -17,7 +17,7 @@ export default function Header(){
                             <img src={logoCentral} className='lg:hidden mx-auto lg:mx-0 w-[200px] ' alt="" />
                             <img src={logoFrente} className='hidden lg:block mx-auto lg:mx-0 lg:w-[300px] ' alt="" />
                         </div>
-                        <h1 className='titleFont text-3xl md:text-6xl lg:text-[38px] md:leading-[45px] text-center md:text-start text-[#fff800]  '>
+                        <h1 className='titleFont text-3xl md:text-6xl lg:text-[38px] md:leading-[50px] lg:leading-[45px] text-center md:text-start text-[#fff800]  '>
                             BUSCANDO
                             OFERECER
                             BENEFÍCIOS PARA
