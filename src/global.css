@@ -30,3 +30,20 @@ html, body{
         background-repeat: no-repeat;
     }
 }
+
+.bg-banner-form{
+    background-image: url(./assets//images/bg-form.webp);
+    background-size: 100%;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+}
+
+@media (min-width:1024px){
+    .bg-banner-form{
+        background-image: url(./assets//images/bg-form.webp);
+        background-size: 100%;
+        max-width: 1400px;
+        background-position: bottom right;
+        background-repeat: no-repeat;
+    }
+}
