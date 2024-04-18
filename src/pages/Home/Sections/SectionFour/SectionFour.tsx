@@ -3,17 +3,17 @@ import logo from '../../../../assets/images/logoFrente.webp'
 export default function SectionFour(){
     return (
         <section className="py-20 container mx-auto px-5 md:px-10 xl:px-16 text-white">
-            <div className="pt-10 px-5 h-[700px] md:h-[800px] flex flex-col items-center gap-5 rounded-[30px] bg-[#0062ff] bg-banner-form ">
+            <div className="pt-10 px-5 h-[800px] flex flex-col items-center gap-5 rounded-[30px] bg-[#0062ff] bg-banner-form ">
                 <img src={logo} alt="" className='w-[200px] ' />
-                <h2 className="titleFont uppercase text-3xl lg:text-6xl text-center">
-                    Solicite seu <br /> 
-                    <span className='text-[#ffee00] lg:text-7xl text-center'>cartão bomd+</span>
+                <h2 className="text-wrap titleFont uppercase text-xl md:text-4xl text-center">
+                    Faça seu orçamento<br /> 
+                    <span className='text-[#ffee00] text-4xl md:text-6xl text-center'>cartão bomd+</span>
                 </h2>
 
-                <div className='max-w-[600px] '>
+                <div className='max-w-[600px] md:text-lg'>
                     <p className='text-center mb-5'>
-                        Tenha acesso a descontos exclusivos em saúde, educação, lazer e
-                        bem-estar! Preencha o formulário abaixo para pedir o seu Cartão
+                        Tenha acesso a descontos exclusivos em saúde, educação e
+                        bem-estar! Preencha o formulário abaixo para contratar o seu Cartão
                         bomd+
                     </p>
                     <p className='text-center'>
@@ -53,6 +53,12 @@ export default function SectionFour(){
                                 Plano Premium Saúde
                             </option>
                         </select>
+
+                        <button 
+                            className="w-[250px] md:w-[300px] mt-5 mx-auto py-2 px-7 text-xl md:text-2xl uppercase text-center titleFont rounded-[35px] bg-[#ff4200] text-black"
+                        >
+                            contrate agora
+                        </button>
                     </form>
                 </div>
                 

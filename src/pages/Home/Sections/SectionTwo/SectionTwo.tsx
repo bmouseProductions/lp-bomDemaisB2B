@@ -2,9 +2,12 @@
 export default function SectionTwo() {
     return (
         <section className=" container mx-auto px-5 md:px-10 xl:px-16 flex flex-col gap-5">
-            <div className='w-full grid grid-cols-1 md:grid-cols-2 justify-items-center gap-10 text-white'>
+            <h1 className="titleFont text-4xl md:text-5xl text-center uppercase mb-5 md:mb-10">
+                BENEFÍCIOS para empresas
+            </h1>
+            <div className='w-full grid grid-cols-1 md:grid-cols-2 justify-items-center gap-5 md:gap-10 text-white'>
                 <div className='px-5 lg:px-10 py-10 lg:py-16 max-w-[500px] flex flex-col justify-center items-center gap-5 bg-[#0062ff] rounded-[30px]  '>
-                    <h2 className='titleFont text-3xl text-center text-[#fff800] uppercase '>
+                    <h2 className='titleFont text-2xl md:text-3xl text-center text-[#fff800] uppercase '>
                         RETENÇÃO DE FUNCIONÁRIOS
                     </h2>
                     <p>
@@ -15,7 +18,7 @@ export default function SectionTwo() {
                 </div>
 
                 <div className='px-5 lg:px-10  py-10 lg:py-16 max-w-[500px] flex flex-col justify-center items-center gap-5 bg-[#0062ff] rounded-[30px]  '>
-                    <h2 className='titleFont text-3xl text-center text-[#fff800] uppercase '>
+                    <h2 className='titleFont text-2xl md:text-3xl text-center text-[#fff800] uppercase '>
                         Atrair novos bons funcionários
                     </h2>
                     <p>
@@ -26,7 +29,7 @@ export default function SectionTwo() {
                 </div>
 
                 <div className='px-5 lg:px-10  py-10 lg:py-16 max-w-[500px] flex flex-col justify-center items-center gap-5 bg-[#0062ff] rounded-[30px]  '>
-                    <h2 className='titleFont text-3xl text-center text-[#fff800] uppercase '>
+                    <h2 className='titleFont text-2xl md:text-3xl text-center text-[#fff800] uppercase '>
                         Bem-estar e preocupação com o funcionário
                     </h2>
                     <p>
@@ -36,7 +39,7 @@ export default function SectionTwo() {
                 </div>
 
                 <div className='px-5 lg:px-10  py-10 lg:py-16 max-w-[500px] flex flex-col justify-center items-center gap-5 bg-[#0062ff] rounded-[30px]  '>
-                    <h2 className='titleFont text-3xl text-center text-[#fff800] uppercase '>
+                    <h2 className='titleFont text-2xl md:text-3xl text-center text-[#fff800] uppercase '>
                         valores coorporativos
                     </h2>
                     <p>
@@ -50,7 +53,7 @@ export default function SectionTwo() {
 
             <div className="mx-auto mt-5 md:mt-7">
                 <a 
-                    href="https://transtriangulo.com.br/contato/"
+                    href="#"
                     target="_blank"
                     className="w-[250px] py-2 px-7 text-xl md:text-3xl uppercase text-center titleFont rounded-[35px] bg-[#fff800] text-black"
                 >

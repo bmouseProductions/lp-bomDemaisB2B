@@ -17,7 +17,7 @@ export default function SectionOne(){
                     </h1>
                     <div className='px-5 py-5 md:px-10 md:py-10 flex flex-col gap-5 text-white bg-[#0062ff] rounded-[30px] '>
                         <p className='text-center md:text-start'>
-                            Em mais de <strong>15 mil estabelecimentos</strong>  parceiros em todo
+                            Em mais de <strong>15 mil estabelecimentos</strong> parceiros em todo
                             país - e esse número continua crescendo a cada dia.
                         </p>
 
@@ -30,18 +30,18 @@ export default function SectionOne(){
                         </p>
                         
                         <p className='text-center md:text-start'>
-                            <strong> Até 30%</strong> de desconto em exames, imagens e análises
+                            <strong> Até 30%</strong> de desconto exames, imagens e análises
                             clínicas;
                         </p>
 
                         <p className='text-center md:text-start'>
-                            <strong> Até 70%</strong> de desconto em empresas de saúde e bem-estar.
+                            <strong> Até 25%</strong> de desconto em empresas de saúde e bem-estar.
                         </p>
                     </div>
                     
                     <div className='mx-auto lg:mx-0 mt-5'>
-                            <Button estilo='azul' />
-                        </div>
+                        <Button estilo='azul' />
+                    </div>
                 </div>
 
                 <div 
