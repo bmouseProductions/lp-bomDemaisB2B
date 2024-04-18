@@ -44,15 +44,17 @@ export default function SectionOne(){
                         </div>
                 </div>
 
-                <div className='relative lg:w-1/2 flex flex-col items-center lg:items-end justify-center '>
+                <div 
+                    data-aos="fade-up-left" 
+                    data-aos-duration="3000"
+                    className='relative lg:w-1/2 flex flex-col items-center lg:items-end justify-center '
+                >
                     <h1 className=" lg:hidden mb-10 titleFont text-5xl text-center lg:text-start text-[#0062ff] ">
                         OFERECEMOS
                         DESCONTOS EXCLUSIVOS!
                     </h1>
 
                     <img 
-                        data-aos="fade-up-left" 
-                        data-aos-duration="3000"
                         src={joelJota} 
                         className='' 
                         alt="" 
