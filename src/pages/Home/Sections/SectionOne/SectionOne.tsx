@@ -35,7 +35,7 @@ export default function SectionOne(){
                         </p>
 
                         <p className='text-center md:text-start'>
-                            <strong> Até 25%</strong> de desconto em empresas de saúde e bem-estar.
+                            <strong> Até 70%</strong> de desconto em empresas de saúde e bem-estar.
                         </p>
                     </div>
                     

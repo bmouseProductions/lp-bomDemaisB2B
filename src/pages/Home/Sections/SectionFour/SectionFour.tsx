@@ -6,18 +6,15 @@ export default function SectionFour(){
             <div className="pt-10 px-5 h-[800px] flex flex-col items-center gap-5 rounded-[30px] bg-[#0062ff] bg-banner-form ">
                 <img src={logo} alt="" className='w-[200px] ' />
                 <h2 className="text-wrap titleFont uppercase text-xl md:text-4xl text-center">
-                    Faça seu orçamento<br /> 
-                    <span className='text-[#ffee00] text-4xl md:text-6xl text-center'>cartão bomd+</span>
+                    Solicite o orçamento do<br /> 
+                    <span className='text-[#ffee00] text-4xl md:text-6xl text-center'>cartão bomd+ <br /> </span>
+                    para a sua empresa
                 </h2>
 
                 <div className='max-w-[600px] md:text-lg'>
                     <p className='text-center mb-5'>
-                        Tenha acesso a descontos exclusivos em saúde, educação e
-                        bem-estar! Preencha o formulário abaixo para contratar o seu Cartão
-                        bomd+
-                    </p>
-                    <p className='text-center'>
-                        Aproveite benefícios especiais <strong>para você e sua família.</strong>
+                        Seus colaboradores com descontos exclusivos em saúde, educação, beleza e bem-estar!
+                        Preencha o formulário para falar com um de nossos consultores.
                     </p>
                     
                     <form 
@@ -26,7 +23,7 @@ export default function SectionFour(){
                     >
                         <input 
                             type="text"
-                            placeholder='Seu CPF'
+                            placeholder='Seu CNPJ'
                             className='px-7 py-3 w-full  rounded-[30px] shadow-xl '
                             required
                             id='cpf'

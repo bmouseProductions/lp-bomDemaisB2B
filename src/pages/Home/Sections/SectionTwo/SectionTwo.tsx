@@ -40,7 +40,7 @@ export default function SectionTwo() {
 
                 <div className='px-5 lg:px-10  py-10 lg:py-16 max-w-[500px] flex flex-col justify-center items-center gap-5 bg-[#0062ff] rounded-[30px]  '>
                     <h2 className='titleFont text-2xl md:text-3xl text-center text-[#fff800] uppercase '>
-                        valores coorporativos
+                        valores corporativos
                     </h2>
                     <p>
                         Oferecer benefícios alinhados com a missão e

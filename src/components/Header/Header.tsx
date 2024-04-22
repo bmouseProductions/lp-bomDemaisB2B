@@ -25,7 +25,7 @@ export default function Header(){
                         </h1>
                         <p className='text-white text-center lg:text-lg lg:text-start'>
                             Sem que isso pese muito no orçamento da sua
-                            empresa? O bomd+ é a melhor solução!
+                            empresa? <br /> O bomd+ é a melhor solução!
                         </p>
 
                         <div className='mx-auto lg:mt-5 lg:mx-0'>
