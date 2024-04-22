@@ -7,7 +7,7 @@ export default function SectionFour(){
                 <img src={logo} alt="" className='w-[200px] ' />
                 <h2 className="text-wrap titleFont uppercase text-xl md:text-4xl text-center">
                     Solicite o orçamento do<br /> 
-                    <span className='text-[#ffee00] text-4xl md:text-6xl text-center'>cartão bomd+ <br /> </span>
+                    <span className='text-[#ffee00] text-4xl md:text-6xl text-center'>cartão bomd+ </span><br />
                     para a sua empresa
                 </h2>
 
