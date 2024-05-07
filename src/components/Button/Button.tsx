@@ -5,7 +5,7 @@ interface ButtonProps {
 export default function Button( {estilo}:ButtonProps ){
     return (
         <a 
-            href="https://transtriangulo.com.br/contato/"
+            href="https://www.cartaobomdemais.com.br/planos/para-sua-empresa/"
             target="_blank"
             className={
                 `${estilo === "amarelo" ? 

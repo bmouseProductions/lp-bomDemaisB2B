@@ -53,7 +53,7 @@ export default function SectionTwo() {
 
             <div className="mx-auto mt-5 md:mt-7">
                 <a 
-                    href="#"
+                    href="https://www.cartaobomdemais.com.br/planos/para-sua-empresa/"
                     target="_blank"
                     className="w-[250px] py-2 px-7 text-xl md:text-3xl uppercase text-center titleFont rounded-[35px] bg-[#fff800] text-black"
                 >

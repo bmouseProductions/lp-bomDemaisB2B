@@ -17,7 +17,7 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
     <Router>
       <main className=''>
         <Routes>
-          <Route path="/" element={<Home />}/>
+          <Route path="/b2b" element={<Home />}/>
           <Route path="/*" element={<ErrorPage />} />
         </Routes>
         <BackToTop/>
