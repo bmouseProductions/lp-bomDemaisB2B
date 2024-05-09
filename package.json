@@ -10,6 +10,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@fortawesome/free-solid-svg-icons": "^6.5.2",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@heroicons/react": "^2.1.3",
+    "@material-tailwind/react": "^2.1.9",
     "@mui/base": "^5.0.0-beta.40",
     "aos": "^2.3.4",
     "react": "^18.2.0",
