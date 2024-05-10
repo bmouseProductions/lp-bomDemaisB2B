@@ -14,7 +14,6 @@ export default function SectionFour(){
                 <div className='max-w-[600px] md:text-lg flex flex-col items-center'>
                     <p className='text-center mb-5'>
                         Seus colaboradores com descontos exclusivos em saúde, educação, beleza e bem-estar!
-                        Preencha o formulário para falar com um de nossos consultores.
                     </p>
                     
                     <a 
