@@ -9,7 +9,6 @@ import { PlusIcon } from "@heroicons/react/24/outline";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Logo from "../../assets/images/logoFrente.webp";
 import { faChevronLeft } from "@fortawesome/free-solid-svg-icons";
-import { faCommentDots } from "@fortawesome/free-solid-svg-icons";
 
 // Defina os tipos para Pergunta e HistoricoItem
 type Pergunta = {

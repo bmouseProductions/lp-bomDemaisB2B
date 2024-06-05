@@ -26,12 +26,16 @@ export default function SectionOne(){
                         </p>
                             
                         <p className='text-center md:text-start'>
-                            <strong> Até 70%</strong> de desconto em medicamentos;
+                            <strong> Até 45%</strong> de desconto em medicamentos;
                         </p>
                         
                         <p className='text-center md:text-start'>
                             <strong> Até 30%</strong> de desconto exames, imagens e análises
                             clínicas;
+                        </p>
+
+                        <p className='text-center md:text-start'>
+                            <strong> Até 60%</strong> de desconto em empresas de educação;
                         </p>
 
                         <p className='text-center md:text-start'>
